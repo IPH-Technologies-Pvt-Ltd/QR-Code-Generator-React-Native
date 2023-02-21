@@ -56,8 +56,7 @@ This app includes the following features:
  -react-native-qrcode-svg Documentation
  -react-navigation Documentation
 
-
 # Screenshots
-<img src="https://user-images.githubusercontent.com/124868842/220317303-5c694139-14fd-4e68-8d6d-e19dd8050956.gif" 
+<img src="https://user-images.githubusercontent.com/124868842/220327339-f3036401-223f-40d3-b04a-4d33e1d5d0d9.gif" 
      width="200" 
      height="400"/>
