@@ -52,9 +52,9 @@ This app includes the following features:
  This app was built using the following resources:
 
 # React Native Documentation
- -Expo Documentation
- -react-native-qrcode-svg Documentation
- -react-navigation Documentation
+ - Expo Documentation
+ - react-native-qrcode-svg Documentation
+ - react-navigation Documentation
 
 # Screenshots
 <img src="https://user-images.githubusercontent.com/124868842/220327339-f3036401-223f-40d3-b04a-4d33e1d5d0d9.gif" 
