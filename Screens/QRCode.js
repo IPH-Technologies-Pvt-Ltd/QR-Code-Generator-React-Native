@@ -3,10 +3,8 @@ import React,{useState} from 'react'
 import QRCodeView from "react-native-qrcode-svg";
 
 const QRCode = ({route}) => {
-
   return (
     <View style={{flex:1,justifyContent:"center",alignItems:"center",backgroundColor:"#fff"}}>
-        
     <QRCodeView
           value={route.params.inputText ? route.params.inputText : 'NA'}
           size={250}

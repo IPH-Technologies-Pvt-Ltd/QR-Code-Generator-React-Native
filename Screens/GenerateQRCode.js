@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Dimensions } from "react-native";
-const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
+const windowWidth = Dimensions.get("window").width;
+const windowHeight = Dimensions.get("window").height;
 import {
   SafeAreaView,
   Text,
@@ -16,13 +16,10 @@ const App = () => {
   const navigation = useNavigation();
   const [inputText, setInputText] = useState("");
   const [qrvalue, setQrvalue] = useState("");
-
   const qrCode = () => {
     setQrvalue(inputText);
-    
-    navigation.navigate('QRCode',{ inputText:inputText})
+    navigation.navigate("QRCode", { inputText: inputText });
   };
-
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
@@ -62,6 +59,8 @@ const styles = StyleSheet.create({
   textStyle: {
     textAlign: "center",
     margin: 10,
+    fontSize: 17,
+    color: "tomato",
   },
   textInputStyle: {
     flexDirection: "row",
@@ -70,16 +69,17 @@ const styles = StyleSheet.create({
     marginLeft: 35,
     marginRight: 35,
     margin: 10,
-    width:windowWidth-40,
-    borderWidth:0.3,
-    borderRadius:10,
-    paddingLeft:10,
-    borderColor:"grey"
+    width: windowWidth - 40,
+    borderWidth: 0.3,
+    borderRadius: 10,
+    paddingLeft: 10,
+    borderColor: "grey",
   },
+
   buttonStyle: {
-    height:55,
+    height: 55,
     justifyContent: "center",
-    alignSelf:"center",
+    alignSelf: "center",
     backgroundColor: "tomato",
     borderWidth: 0,
     color: "#FFFFFF",
@@ -92,5 +92,8 @@ const styles = StyleSheet.create({
   buttonTextStyle: {
     color: "#FFFFFF",
     fontSize: 16,
+    paddingLeft: 7,
+    paddingRight: 7,
+    padding: 5,
   },
 });
